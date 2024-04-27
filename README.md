@@ -1,1 +1,1 @@
-# Generative-AI-PPT-Geneartor
+# Generative-AI-PPT-Generator
