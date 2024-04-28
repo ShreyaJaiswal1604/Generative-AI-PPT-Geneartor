@@ -2,12 +2,13 @@ import streamlit as st
 from openai import Client
 import time
 from PIL import Image
+from openai import OpenAI
 import io
 import os
 
 openai_api_key=os.getenv('OPENAI_API_KEY')
 # Initialize OpenAI client
-client = Client("your-openai-api-key")
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 def convert_file_to_png(file_id, write_path):
     data = client.files.content(file_id)
@@ -24,7 +25,7 @@ def main():
     if st.button("Generate PowerPoint Presentation"):
         # Create file in OpenAI
         file = client.files.create(
-            file=open("your-json-file-path.json", "rb"),
+            file=open("../NotRealCorp_financial_data.json", "rb"),
             purpose='assistants'
         )
 
@@ -63,19 +64,34 @@ def main():
             assistant_id=assistant.id
         )
 
-        # Poll assistant to check if process is completed
+        # Display a loading spinner while waiting for the plot to be created
+    with st.spinner(text='Assistant still working...'):
         while True:
             messages = client.beta.threads.messages.list(thread_id=thread.id)
             try:
-                # Check if image has been created
+                # Check if the image has been created
                 messages.data[0].content[0].image_file
-                # Print message once plot is created
+                # Sleep to make sure the run has completed
+                time.sleep(5)
                 st.success('Plot created!')
                 break
             except:
-                # Print message while assistant is still working
-                st.warning('Assistant still working...')
-                time.sleep(10)
+                # If image has not been created, continue showing the spinner
+                continue
+
+        # # Poll assistant to check if process is completed
+        # while True:
+        #     messages = client.beta.threads.messages.list(thread_id=thread.id)
+        #     try:
+        #         # Check if image has been created
+        #         messages.data[0].content[0].image_file
+        #         # Print message once plot is created
+        #         st.success('Plot created!')
+        #         break
+        #     except:
+        #         # Print message while assistant is still working
+        #         st.warning('Assistant still working...')
+        #         time.sleep(10)
 
         # Display the output image to the user
         for message in messages.data:
