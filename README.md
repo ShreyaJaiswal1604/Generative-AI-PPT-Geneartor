@@ -3,9 +3,13 @@
 # Generative-AI-PPT-Generator
 
 ---
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/T14x6VB8ieo)
 
+### Introducing Generative AI PPT Generator
+https://www.youtube.com/watch?v=https://youtu.be/T14x6VB8ieo
 
+![til](https://github.com/ShreyaJaiswal1604/Generative-AI-PPT-Geneartor/blob/main/media/gif/ppt-bot-gif-comp.gif)
+
+---
 
 ## Introduction 🌟
 Welcome to Generative AI PPT Generator, your innovative solution for creating captivating presentations effortlessly. 🚀 Powered by cutting-edge technology including Streamlit and OpenAI Assistant, our application harnesses the power of artificial intelligence to streamline the presentation creation process. Whether you're a professional presenter, educator, or student, our tool empowers you to craft engaging presentations in no time.
