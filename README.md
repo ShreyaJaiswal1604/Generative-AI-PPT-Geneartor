@@ -7,15 +7,30 @@
 ## Introduction 🌟
 Welcome to Generative AI PPT Generator, your innovative solution for creating captivating presentations effortlessly. 🚀 Powered by cutting-edge technology including Streamlit and OpenAI Assistant, our application harnesses the power of artificial intelligence to streamline the presentation creation process. Whether you're a professional presenter, educator, or student, our tool empowers you to craft engaging presentations in no time.
 
-https://www.youtube.com/watch?v=https://youtu.be/T14x6VB8ieo
-
-![til](https://github.com/ShreyaJaiswal1604/Generative-AI-PPT-Geneartor/blob/main/media/gif/ppt-bot-gif-comp.gif)
-
----
+Here's an overview of the project: Click below
 
 
+[![Watch the video](https://img.youtube.com/vi/T14x6VB8ieo/maxresdefault.jpg)](https://www.youtube.com/watch?v=T14x6VB8ieo&list=PLeBznxdyLd713ReU5_sTGMsGgqoOiInMu)
 
-## Technical Details
+
+
+
+
+## Technical Architecture 🛠️
+
+![Architecture Diagram](https://github.com/ShreyaJaiswal1604/Generative-AI-PPT-Geneartor/blob/main/media/architecture/ppt-generator.png)
+
+The Generative AI PPT Generator architecture consists of:
+
+1. **User Interface (Streamlit)**: Provides a web interface for users to upload data, input queries, and customize presentations.
+
+2. **OpenAI API**: Utilizes OpenAI models to generate text and images. DALL-E creates images based on prompts provided by the user.
+
+3. **Presentation Creation**: Generates PPTX files using Python libraries, incorporating the generated text and images into custom slide templates.
+
+4. **File Management**: Handles the uploading, processing, and temporary storage of files for analysis and presentation generation.
+
+
 ## 🚀 **Technical Details**
 
 ### 1. **Streamlit** <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="30"/>
@@ -32,8 +47,6 @@ Our application offers a variety of **Customization Options** to tailor your pre
 
 ### 5. **Intuitive Interface** 🖥️
 Generative AI PPT Generator boasts an **Intuitive User Interface** that is designed with ease of use in mind. With simple controls and clear navigation, creating professional presentations has never been easier. Whether you're a novice or an experienced presenter, our user-friendly interface makes it easy to craft stunning slides.
-
-
 
 
 ## Concepts and Benefits
