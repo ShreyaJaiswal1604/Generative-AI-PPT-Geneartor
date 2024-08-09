@@ -4,26 +4,37 @@
 
 ---
 
-### Introducing Generative AI PPT Generator
+## Introduction 🌟
+Welcome to Generative AI PPT Generator, your innovative solution for creating captivating presentations effortlessly. 🚀 Powered by cutting-edge technology including Streamlit and OpenAI Assistant, our application harnesses the power of artificial intelligence to streamline the presentation creation process. Whether you're a professional presenter, educator, or student, our tool empowers you to craft engaging presentations in no time.
+
 https://www.youtube.com/watch?v=https://youtu.be/T14x6VB8ieo
 
 ![til](https://github.com/ShreyaJaiswal1604/Generative-AI-PPT-Geneartor/blob/main/media/gif/ppt-bot-gif-comp.gif)
 
 ---
 
-## Introduction 🌟
-Welcome to Generative AI PPT Generator, your innovative solution for creating captivating presentations effortlessly. 🚀 Powered by cutting-edge technology including Streamlit and OpenAI Assistant, our application harnesses the power of artificial intelligence to streamline the presentation creation process. Whether you're a professional presenter, educator, or student, our tool empowers you to craft engaging presentations in no time.
+
 
 ## Technical Details
-1. **Streamlit:** Generative AI PPT Generator is built using Streamlit, a popular open-source app framework for Machine Learning and Data Science projects. Streamlit allows for seamless integration of machine learning models with a user-friendly interface, ensuring a smooth user experience.
-  
-2. **OpenAI Assistant:** Our application leverages the capabilities of OpenAI Assistant, a state-of-the-art language model, to generate high-quality content for your presentations. By tapping into the vast knowledge and linguistic proficiency of OpenAI Assistant, we ensure that your presentations are not only informative but also articulate and compelling.
-  
-3. **Generative AI:** The core functionality of Generative AI PPT Generator lies in its generative AI engine, which dynamically creates slide content based on user input. Using advanced natural language processing techniques, our AI engine understands user requirements and generates coherent text for each slide, saving you valuable time and effort.
-  
-4. **Customization Options:** Our application offers a range of customization options, allowing users to tailor their presentations to their specific needs. From choosing different presentation styles and layouts to customizing colors and fonts, you have full control over the look and feel of your slides.
-  
-5. **Intuitive Interface:** Generative AI PPT Generator features an intuitive user interface designed for ease of use. With simple controls and clear navigation, creating professional presentations has never been easier. Whether you're a novice or an experienced presenter, you'll feel right at home with our user-friendly interface.
+## 🚀 **Technical Details**
+
+### 1. **Streamlit** <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="30"/>
+Generative AI PPT Generator is built using [**Streamlit**](https://streamlit.io), a powerful open-source app framework designed for Machine Learning and Data Science projects. Streamlit provides a smooth integration of machine learning models with a user-friendly interface, ensuring an excellent user experience.
+
+### 2. **OpenAI Assistant** 🧠
+Our application harnesses the power of [**OpenAI Assistant**](https://openai.com), a state-of-the-art language model, to craft high-quality content for your presentations. By leveraging the extensive knowledge and linguistic capabilities of OpenAI Assistant, your presentations are not only informative but also engaging and well-articulated.
+
+### 3. **Generative AI** 🔄
+The core feature of Generative AI PPT Generator is its **Generative AI Engine**, which dynamically generates slide content based on your input. Using advanced natural language processing (NLP) techniques, our AI understands your requirements and creates coherent, impactful text for each slide, saving you valuable time and effort.
+
+### 4. **Customization Options** 🎨
+Our application offers a variety of **Customization Options** to tailor your presentations to your specific needs. You can choose from different presentation styles, layouts, and customize colors and fonts, giving you full control over the look and feel of your slides.
+
+### 5. **Intuitive Interface** 🖥️
+Generative AI PPT Generator boasts an **Intuitive User Interface** that is designed with ease of use in mind. With simple controls and clear navigation, creating professional presentations has never been easier. Whether you're a novice or an experienced presenter, our user-friendly interface makes it easy to craft stunning slides.
+
+
+
 
 ## Concepts and Benefits
 - **Automation:** By automating the process of slide creation, Generative AI PPT Generator eliminates the need for manual content generation, saving you time and reducing the risk of errors.
